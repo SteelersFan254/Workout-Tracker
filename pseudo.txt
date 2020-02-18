@@ -1,0 +1,15 @@
+index.html
+    "fitness tracker" takes you to "/"
+    "Dashboard" takes you to "/stats"
+    "New Workout" takes you to "/exercise" (add your excercise)
+    "Continue Workout" takes you to "/excercise?"
+
+exercise.html
+    "fitness tracker" takes you to "/"
+    "Dashboard" takes you to "/stats"
+    "Add exercise" adds and exercise to the workout
+    "Complete" submits the workout
+    "Select Exercise" chooses between resistance and cardio exercise
+        *need on click to show the exercise choices based on chosen answer
+    
+stats.js
