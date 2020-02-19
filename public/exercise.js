@@ -137,12 +137,10 @@ function clearInputs() {
   weightInput.value = "";
 }
 
-
-addButton.on("click", function() {
 if (workoutTypeSelect) {
   workoutTypeSelect.addEventListener("change", handleWorkoutTypeChange);
 }
-});
+
 if (completeButton) {
   completeButton.addEventListener("click", function (event) {
     shouldNavigateAway = true;

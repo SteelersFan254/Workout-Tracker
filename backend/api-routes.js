@@ -1,9 +1,8 @@
-//Require model
 const db = require("../models");
 const mongoose = require("mongoose");
 
 String.prototype.toObjectId = function() {
-    var ObjectId = (require('mongoose').Types.ObjectId);
+    var ObjectId = (mongoose.Types.ObjectId);
     return new ObjectId(this.toString());
 };
 
