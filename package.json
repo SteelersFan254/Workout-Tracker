@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/SteelersFan254/Workout-Tracker#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.9.0",
     "morgan": "^1.9.1"
   }
